@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="百度推广、百度开户、百度品牌、百度竞价、百度地标、百度网盟、鸿媒体、360推广、搜狗推广、网络广告、网络营销、网络建设、400电话"/>
+<meta name="description" content="安徽省思普瑞网络技术有限公司、提供专业的网络营销方案、产品包括百度、google、搜搜、搜狗搜索引擎推广、400电话、53客服、koocall免费电话等网络周边产品。"/>
+<meta name="baidu-tc-verification" content="db332a25f4debf5e4909e9171a901dea" />
+<title>品牌专区-安徽省思普瑞网络技术有限公司</title>
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+<!--<script src="js/slide.js" type="text/javascript"></script> 图片自动切换js-->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/smohan.fixednav.js"></script>
+<script type="text/javascript">
+$(document).ready(function(e) {
+ $('#mynav').smohanfixednav(0,9997);
+ 	switch (true) {		
+		default :
+			$(".top_nav_right li a").eq(0).next().addClass("hover");
+	} 
+ $(".top_nav_right li").hover(
+		function(){
+			$(".hover").removeClass("hover"); 
+			$(this).children(".nav_list").addClass("hover");
+		},
+		function(){
+			
+		}
+	);
+ var _goTop = document.getElementById("to_top");
+    if(_goTop){
+		$(window).scroll(function(){
+            $(window).scrollTop() > 80 ? $("#to_top").show() : $("#to_top").hide();
+        });
+	}
+
+});
+//第一个值： 你期望导航在距离顶部多少的位置浮动
+//第二个值： 导航zindex
+</script>
+</head>
+<body>
+<div class="top" id="mynav">
+  <!--导航开始-->
+  <div class="top_nav">
+    <a href="index.html" style=" cursor:pointer;"><div class="top_nav_left"></div></a>
+    <div class="top_nav_right" id="nav">
+      <ul class=c>
+        <li ><span class="v li_bg1"><a href="index.html" target="_blank"></a></span>
+          <div class="kind_menu">欢迎您访问安徽思普瑞,我们为您提供最优质的互联网服务! </div>
+        </li>
+                    <li style="width:18px;"><img src="images/xg.gif"/></li>
+        <li ><span class="v li_bg2"><a href="about.html" target="_blank"> </a></span>
+          <div class="kind_menu"> <a href="about5.html" >联系我们</a> <span>|</span><a href="about4.html" >付款方式</a> <span>|</span><a href="about2.html" >公司资质</a> <span>|</span><a href="about.html" >公司介绍</a> </div>
+        </li>
+        <li style="width:18px;"><img src="images/xg.gif"/></li>
+        <li ><span class="v li_bg3"><a href="extension1.html" target="_blank"></a></span>
+          <div class="kind_menu"> <a href="marketing.html" >微信营销</a> <span>|</span><a href="Brand.html" style="color:#1D5A99;">品牌专区</a> <span>|</span><a href="extension1.html" >百度推广</a> </div>
+        </li>
+        <li style="width:18px;"><img src="images/xg.gif"/></li>
+        <li ><span class="v li_bg4"><a href="product.html" target="_blank"></a></span>
+          <div class="kind_menu"> <a href="product3.html" >微汽车</a> <span>|</span><a href="product2.html" >微游戏</a> <span>|</span><a href="product1.html" >微会员</a> <span>|</span><a href="product.html" >微网站</a> </div>
+        </li>
+                <li style="width:18px;"><img src="images/xg.gif"/></li>
+        <li ><span class="v li_bg5"><a href="#" target="_blank"></a></span>
+          <div class="kind_menu">
+                              <a href="#" >图片展示</a> 
+                    <span>|</span><a href="#" >企业新闻</a> 
+          </div>
+        </li>
+        </ul>
+      <div class=r></div>
+    </div>
+    <!--nav-->
+    <script type=text/javascript>
+            var site_url = window.location.href.toLowerCase();	
+            switch (true) {		
+                default :
+					var i=0;
+                    //$("#nav li").attr("class","");
+                    //$("#nav li").eq(i).attr("class","nav_lishw");
+                    $(".nav_lishw .v a").attr("class","sele");
+                    $(".nav_lishw .kind_menu").show();
+					$(".nav_lishw").find("span").animate({backgroundPosition:"0px -90px"},{  duration:1,  complete: function(){}});
+            } 
+			var mamer='';
+            $("#nav li").hover(
+					function(){
+							clearTimeout(mamer);
+							$("#nav .kind_menu").hide(); 
+							$("#nav li .v .sele").attr("class","shutAhover");
+							$(this).attr("id","nav_hover");
+							var i=$("li").index(document.getElementById("nav_hover"));
+							$(this).find("span").animate({backgroundPosition:"0px -90px"},{  duration:1,  complete: function(){}});
+							$("#nav_hover .v a").attr("class","sele");
+							$("#nav_hover .kind_menu").show(); 
+							$(".nav_lishw").find("span").animate({backgroundPosition:"0px 0px"},{  duration:1,  complete: function(){}});
+					},
+					function(){
+							var i=$("li").index($(".nav_lishw"));
+							if($(this).attr("class") != "nav_lishw"){
+								$("#nav_hover .v .sele").attr("class","");
+								$("#nav_hover .kind_menu").hide(); 
+								$(this).find("span").animate({backgroundPosition:"0px 0px"},{  duration:1,  complete: function(){}});
+							}
+							$(this).attr("id","")
+							$("#nav li .v .shutAhover").attr("class","sele");
+							
+							mamer=setTimeout(function(){
+								$(".nav_lishw .kind_menu").show();
+								$(".nav_lishw .v a").attr("class","sele");
+								$(".nav_lishw").find("span").animate({backgroundPosition:"0px -90px"},{  duration:1,  complete: function(){}});
+							},50);
+					}
+            );
+            
+        </script>
+  </div>
+  <div class="x_xian"></div>
+  <div style="clear:both"></div>
+</div>
+
+<link href="css/about.css" rel="stylesheet" type="text/css" />
+<div class="about_banner">
+	<div class="about_banner_tuiguang"></div>
+</div>
+
+<!--banner-->
+
+<div class="about_bt">
+	<div class="about_bt_left"><img src="images/tg_12.jpg" alt="推广" /></div>
+    <div class="about_bt_right">优秀的团队 专业的服务<br />Excellent team of professional services</div>
+</div>
+<div class="about_xian"></div>
+
+
+<!--关于我们六项-->
+<div class="about_center">
+	<div class="about_center_left">
+    	<ul>
+        <li><a href="extension1.html">百度推广</a></li>
+            <li class="about_li_01"><a href="Brand.html" style="color:#FFF;">品牌专区</a></li>
+            <li><a title="微信营销"  href="marketing.html">微信营销</a></li>
+            </ul>
+    </div>
+    <div class="about_center_right">
+    	<div class="about_center_right_01">
+	<span style="font-size:36px;font-weight:bold;font-family:'微软雅黑';color:#1d5a99;">品牌专区</span> <img src="images/about_14.jpg" align="bottom" alt="品牌专区" /> <span style="font-size:24px;color:#333;font-weight:bold;">整合文字、图片、视频多种展现结果的创新搜索模式</span> 
+</div>
+<div class="about_center_right_01" style="margin-top:30px;border-bottom:1px #ededed solid;">
+</div>
+<div class="about_center_right_01">
+	<h2 style="margin-top:15px;color:#333;font-size:16px;height:260px;line-height:34px;background:url(images/pp1.jpg) no-repeat left;padding-left:260px;vertical-align:middle;font-weight:normal;">
+		<br />
+<br />
+百度品牌专区，是位于搜索结果首页最上方，是为品牌量身定制的专属咨询发布平台；是为提升网民品牌搜索体验而整合文字、图片、视频等多种展现结果的创新搜索模式；打通线上线下传播通路，极大的提升了品牌推广效能。
+	</h2>
+</div>
+<div class="about_center_right_01" style="margin-top:30px;border-bottom:1px #ededed solid;">
+</div>
+<div class="about_center_right_01">
+	<h2 style="margin-top:15px;padding-top:15px;color:#333;font-size:16px;height:38px;line-height:24px;background:url(images/ss1.png) no-repeat left;padding-left:50px;">
+		首屏黄金位置，最佳第一印象
+	</h2>
+	<p style="text-indent:inherit;padding-left:50px;">
+		<b style="color:#333;">聚焦</b><br />
+占据搜索结果首页近三分之二面积，有效抓住网民眼球，信息更加聚焦。<br />
+<b style="color:#333;">形象</b><br />
+文字似的搜索结果可能分散用户焦点，导致品牌失去塑造品牌形象的机会，流失潜在用户，品牌专区图文并茂，有效锁定搜索用户
+	</p>
+</div>
+<div class="about_center_right_01">
+	<h2 style="margin-top:15px;padding-top:15px;color:#333;font-size:16px;height:38px;line-height:24px;background:url(images/ss2.png) no-repeat left;padding-left:50px;">
+		树立品牌形象，增强信任感
+	</h2>
+	<p style="text-indent:inherit;margin-left:50px;padding-left:300px;background:url(images/pp2.jpg) no-repeat left;height:280px;">
+		<br />
+<br />
+<br />
+<b style="color:#333;">品牌信任</b><br />
+品牌专区是最贴近自然搜索结果的样式。<br />
+百度最严格的审核及背书，增强网民品牌信任感。<br />
+<b style="color:#333;">品牌形象</b><br />
+帮助树立品牌官方形象。
+	</p>
+</div>
+<div class="about_center_right_01">
+	<h2 style="margin-top:15px;padding-top:15px;color:#333;font-size:16px;height:38px;line-height:24px;background:url(images/ss3.png) no-repeat left;padding-left:50px;">
+		缩短信息到达路径，提供便捷的销售通路
+	</h2>
+	<p style="text-indent:inherit;padding-left:50px;">
+		<b style="color:#333;">缩短路径</b><br />
+品牌专区将网民所找的信息，以最短路径传递到网民面前，减少因信息传播路径增多而带来的衰减。
+	</p>
+</div>
+<div class="about_center_right_01">
+	<h2 style="margin-top:15px;padding-top:15px;color:#333;font-size:16px;height:38px;line-height:24px;background:url(images/ss4.png) no-repeat left;padding-left:50px;">
+		IMC整合营销收口，提升推广效能
+	</h2>
+	<p style="text-indent:inherit;margin-left:50px;padding-left:340px;background:url(images/pp3.jpg) no-repeat left;height:320px;">
+		<br />
+<br />
+<br />
+<br />
+<b style="color:#333;">线上收口</b><br />
+欲知详情，百度一下。线下开花，线上结果。<br />
+重要网络收口，充分放大线下营销效果。<br />
+<b style="color:#333;">二次助推</b><br />
+给线下活动二次助推，全面引爆线上营销。
+	</p>
+</div>
+<div class="about_center_right_01" style="border-bottom:1px #ededed solid;">
+	<h2 style="margin-top:15px;padding-top:15px;color:#333;font-size:16px;height:38px;line-height:24px;background:url(images/ss5.png) no-repeat left;padding-left:50px;">
+		企业重要沟通渠道，官方信息直达
+	</h2>
+	<p style="text-indent:inherit;padding-left:50px;">
+		<b style="color:#333;">官方权威信息</b><br />
+企业官方信息直达，把品牌最想呈现给消费者的展示给他。<br />
+<b style="color:#333;">多种方式</b><br />
+整合多种沟通方式（微博）最有效的传达。
+	</p>
+</div>      <div class="about_center_right_04">相关信息</div>
+      <div class="about_center_right_04_tgli">
+      	<ul>
+        	<li><a onFocus="this.blur()" title="微博显示是否自动更新？" href="brand/brand11.html" target="_blank">微博显示是否自动更新？</a></li>
+            <li><a onFocus="this.blur()" title="关键词是自己定么？" href="brand/brand12.html" target="_blank">关键词是自己定么？</a></li>
+            <li><a onFocus="this.blur()" title="品牌专区最长可购买时间是多久？" href="brand/brand13.html" target="_blank">品牌专区最长可购买时间是多久？</a></li>
+            <li><a onFocus="this.blur()" title="针对收费模式，能不能针对点击才收费？" href="brand/brand14.html" target="_blank">针对收费模式，能不能针对点击才收费？</a></li>
+            <li><a onFocus="this.blur()" title="品牌专区怎么收费？" href="brand/brand15.html" target="_blank">品牌专区怎么收费？</a></li>
+            </ul>
+        <div style="clear:both; height:1px; border-bottom:1px #ededed solid; "></div>
+      	<div class="listtyle1_page"><div class="listtyle1_page_w">
+        	<a class="firstPage" href="Brand.html">首页</a><a class="prePage" href="Brand.html">上一页</a><a class="pages" href="Brand.html">1</a> <span class="current">2</span>         </div></div>
+      </div>
+    </div>
+  	<div style="clear:both"></div>
+</div>
+
+<!--关于我们六项-->
+ <!--这里不用说了吧，主流cms都有的layout功能主体部分调用-->
+<div class="top_foot">
+  <div class="top_foot_whole">
+    <div class="top_foot_whole_column">
+      <div class="top_foot_whole_column_bt"><img src="images/h_e_66.jpg" /></div>
+      <div class="top_foot_whole_column_01">
+        <ul>
+	<li>
+		全国电话：<span>0553-3883986</span> 
+	</li>
+	
+	<li>
+		电子邮箱：<span>306318645@qq.com</span> 
+	</li>
+</ul></div>
+    </div>
+    <div class="top_foot_whole_column">
+      <div class="top_foot_whole_column_bt"><img src="images/h_e_68.jpg" /></div>
+      <div class="top_foot_whole_column_02">
+        <ul>
+        <li><a title="百度推广"  href="extension1.html">百度推广</a></li>
+          <li><a title="品牌专区"  href="Brand.html">品牌专区</a></li>
+          <li><a title="微信营销"  href="marketing.html">微信营销</a></li>
+          </ul>
+      </div>
+    </div>
+    <div class="top_foot_whole_column">
+      <div class="top_foot_whole_column_bt"><img src="images/h_e_70.jpg" /></div>
+      <div class="top_foot_whole_column_03">
+        <ul>
+          <li><a title="微网站"  href="product.html">微网站</a></li>
+          <li><a title="微会员"  href="product1.html">微会员</a></li>
+          <li><a title="微游戏"  href="product2.html">微游戏</a></li>
+          <li><a title="微汽车"  href="product3.html">微汽车</a></li>
+          </ul>
+      </div>
+    </div>
+    <div class="top_foot_whole_column">
+      <div class="top_foot_whole_column_bt"><img src="images/h_e_72.jpg" /></div>
+      <div class="top_foot_whole_column_04">
+        <ul>
+        
+           <li><a style="color:" title="思普瑞公司聚餐  海底捞+KTV  嗨起来" target="_blank" href="#">思普瑞公司聚餐  海底捞+KTV  嗨起来</a></li>
+           <li><a style="color:" title="思普瑞“我罩你”绝不霾怨 口罩派发活动" target="_blank" href="#">思普瑞“我罩你”绝不霾怨 口罩派发活动</a></li>
+           <li><a style="color:" title="排名高低对我的推广效果有什么影响？" target="_blank" href="#">排名高低对我的推广效果有什么影响？</a></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+  <div class="top_foot_bottom">安徽省思普瑞网络技术有限公司@2013-2015版权所有　</div>
+  <div class="top_foot_xian"></div>
+</div>
+<script>
+(function() {    
+var $backToTopTxt = "", $backToTopEle = $('<div class="backToTop"></div>').appendTo($("body"))        
+.text($backToTopTxt).click(function() {            
+$("html, body").animate({ scrollTop: 0 }, 120);    
+}), $backToTopFun = function() {        
+var st = $(document).scrollTop(), winh = $(window).height();        
+(st > 0)? $backToTopEle.show(): $backToTopEle.hide();            
+//IE6下的定位        
+if (!window.XMLHttpRequest) {            
+$backToTopEle.css("top", st + winh - 166);            
+}    
+};    
+$(window).bind("scroll", $backToTopFun);    
+$(function() { $backToTopFun(); }); })();
+</script>
+</body>
+</html> 
